@@ -1,4 +1,4 @@
-FROM openjdk:9-b170-jre
+FROM openjdk:21-ea-9-jdk-slim
 ENV HW_HOME=/opt/hello-world
 ADD HelloWorld.class $HW_HOME/
 WORKDIR $HW_HOME
